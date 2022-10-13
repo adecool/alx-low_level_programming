@@ -2,6 +2,9 @@
 
 /**
  * main - Entry point
+ *
+ * Description: print a string
+ *
  * Return - Always 0 (Success)
  */
 
