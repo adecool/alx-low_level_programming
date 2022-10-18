@@ -5,7 +5,7 @@
  * Return: 1 or 0
  */
 
-int _ialpha(int c)
+int _isalpha(int c)
 {
 	if (c >= 'A' && c <= 'z')
 	{
