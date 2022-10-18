@@ -2,19 +2,18 @@
 /**
  * _abs - Entry point
  * @n: character to check
- * Return: 0
+ * Return: n
  */
 
 int _abs(int n)
 {
 	if (n >= 0)
 	{
-		_putchar(n);
+		return (n);
 	}
 	else
 	{
-		n *= '-1';
-		_putchar(n);
+		n *= -1;
+		return (n);
 	}
-	return (0);
 }
