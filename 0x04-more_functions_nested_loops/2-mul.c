@@ -3,14 +3,12 @@
  * mul - Entry point
  * @a: first integer checked
  * @b: second integer checked
- * Return: 0
+ * Return: j
  */
 
 int mul(int a, int b)
 {
 	j = a * b;
 
-	putchar(j);
-
-	return (0);
+	return (j);
 }
