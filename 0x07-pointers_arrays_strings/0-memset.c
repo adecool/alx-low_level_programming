@@ -9,6 +9,8 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
+	char *s, b;
+	
 	for (int index = 0; index < n; index++)
 		s[index] = b;
 
