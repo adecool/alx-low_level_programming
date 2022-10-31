@@ -8,9 +8,9 @@
  * Return: A pointer to the filled memory @s.
  */
 
-int *_memset(char *s, char b, unsigned int n)
+void *_memset(char *s, char b, unsigned int n)
 {
-	int i;
+	unsigned int i;
 
 	unsigned char *str = s;
 
@@ -20,5 +20,5 @@ int *_memset(char *s, char b, unsigned int n)
 	{
 		str[i] = value;
 	}
-	return (s)
+	return (str)
 }
